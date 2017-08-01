@@ -78,3 +78,28 @@ footer {
   margin-top: 10em;
   letter-spacing: 0.4em;
 }
+
+.headshots {
+  overflow: hidden;
+  max-width: 400px;
+}
+
+.headshots small {
+  display: block;
+}
+
+.headshots li {
+  width: 50%;
+  float: left;
+}
+
+.headshots li + li {
+  float: right;
+}
+
+.headshots img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
