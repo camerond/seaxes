@@ -246,6 +246,12 @@ footer {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px) {
+  .epk-columns {
+    display: block;
+  }
+}
+
 .epk-columns h2 {
   text-align: center;
 }
