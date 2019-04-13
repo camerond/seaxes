@@ -242,7 +242,7 @@ footer {
   text-transform: none;
   text-align: left;
   letter-spacing: 0.1em;
-  padding: 0 10vw;
+  padding: 0 5vw;
   box-sizing: border-box;
 }
 
@@ -256,8 +256,9 @@ footer {
   text-align: center;
 }
 
-.epk-columns div {
+.epk-columns > div {
   flex: 1;
+  padding: 0 2vw;
 }
 
 .epk-columns a { 
