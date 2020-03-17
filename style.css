@@ -265,8 +265,16 @@ footer {
   padding: 0 2vw;
 }
 
-.epk-columns a { 
+.epk-columns a {
   border-bottom: 2px solid #fff;
   color: #fff;
   text-decoration: none;
+}
+
+.embed iframe {
+  margin: 2em auto;
+}
+
+.embed h2 {
+
 }
