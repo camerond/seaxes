@@ -233,6 +233,8 @@ footer {
 
 .bio li {
   list-style-type: square;
+  font-weight: normal;
+  font-family: Verdana;
 }
 
 .epk-columns {
