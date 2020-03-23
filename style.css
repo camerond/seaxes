@@ -273,6 +273,11 @@ footer {
 
 .embed iframe {
   margin: 2em auto;
+  display: block;
+}
+
+.epk-columns .embed {
+  text-align: center;
 }
 
 .embed h2 {
