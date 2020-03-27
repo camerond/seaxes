@@ -28,6 +28,7 @@ body {
   height: 100vh;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .site-header.site-header--epk {
@@ -268,7 +269,7 @@ footer {
 }
 
 .epk-columns a {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px dotted white;
   color: #fff;
   text-decoration: none;
 }
@@ -282,6 +283,10 @@ footer {
   text-align: center;
 }
 
-.embed h2 {
-
+.streaming-links a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  border-bottom: 2px dotted white;
 }
+
