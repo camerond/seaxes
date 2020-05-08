@@ -290,3 +290,13 @@ footer {
   border-bottom: 2px dotted white;
 }
 
+.tgic-promo {
+  display: block;
+  padding: 10px;
+}
+
+.tgic-promo img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
