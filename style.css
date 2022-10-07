@@ -3,6 +3,10 @@
   src: url('atco-heavy.otf');
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: #000;
   align-items: center;
@@ -12,45 +16,41 @@ body {
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-align: center;
   line-height: 1.8;
   margin: 0;
   padding: 0;
 }
 
-.site-header {
-  position: relative;
-  background: url(images/seaxesheader.jpg) center no-repeat;
+header {
+
+}
+
+.photo {
+  background: url(images/seaxes-header.jpg) center no-repeat;
   background-size: cover;
   width: 100%;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  overflow: hidden;
-  margin-bottom: 2rem;
+  height: 50vh;
+  padding: 5vw 10vw;
+  box-sizing: border-box
 }
 
-.site-header.site-header--epk {
-  height: 33vh;
+.photo--epk {
+  height: 20vh;
 }
 
-.site-header h1 {
-  flex: 0 0 100%;
-  text-align: center;
-  font-size: 18vw;
-  letter-spacing: 5vw;
-  margin: 0;
-  margin-left: 2.5vw;
-}
+header h1 {
+  width: 80%;
+  margin: -12.5% auto 2rem auto;
+  border: 0.3rem solid white;
+  border-bottom: 0;
+  background: url(images/seaxes-logo-white.svg) center no-repeat black;
+  background-size: 100% auto;
+  padding-bottom: 25%;
 
-.site-header--epk h1 {
-  font-size: 10vw;
-}
-
-.site-header img {
-  width: 100%;
-  margin: 0 auto;
+  font-size: 1px;
+  color: transparent;
 }
 
 h1, h2, h3 {
@@ -334,4 +334,8 @@ footer {
   background: white;
   max-width: 700px;
   margin: 3vw auto;
+}
+
+footer {
+  margin: 2rem 0;
 }
