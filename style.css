@@ -290,6 +290,12 @@ footer {
   text-align: center;
 }
 
+h2 a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px dotted white;
+}
+
 .streaming-links a {
   color: white;
   text-decoration: none;
