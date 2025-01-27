@@ -39,10 +39,9 @@ body {
 header h1 {
   width: 80%;
   margin: -12.5% auto 2rem auto;
-  border: 0.3rem solid white;
   border-bottom: 0;
   background: url(images/seaxes-logo-white.svg) center no-repeat black;
-  background-size: 100% auto;
+  background-size: 85% auto;
   padding-bottom: 25%;
 
   font-size: 1px;
@@ -239,43 +238,32 @@ footer {
   margin: 0 auto;
 }
 
+.epk li {
+  list-style-type: square;
+}
+
 .bio li {
   list-style-type: square;
   font-weight: normal;
   font-family: Verdana;
 }
 
-.epk-columns {
-  display: flex;
-  width: 100%;
-  letter-spacing: 0;
-  text-transform: none;
-  text-align: left;
-  letter-spacing: 0.1em;
+.epk {
+  margin: 0 auto;
   padding: 0 5vw;
-  box-sizing: border-box;
+  max-width: 600px;
+  text-align: left;
 }
-
-@media only screen and (max-width: 600px) {
-  .epk-columns {
-    display: block;
-  }
-}
-
-.epk-columns h2 {
-  text-align: center;
-}
-
-.epk-columns li {
+.epk li {
   margin-left: 2em;
 }
 
-.epk-columns > div {
+.epk > div {
   flex: 1;
   padding: 0 2vw;
 }
 
-.epk-columns a {
+.epk a {
   border-bottom: 2px dotted white;
   color: #fff;
   text-decoration: none;
@@ -284,10 +272,6 @@ footer {
 .embed iframe {
   margin: 2em auto;
   display: block;
-}
-
-.epk-columns .embed {
-  text-align: center;
 }
 
 h2 a {
@@ -327,10 +311,9 @@ h2 a {
   background: white;
 }
 
-.bio {
-  color: black;
-  font-family: garamond;
-  font-size: 17px;
+.epk {
+  font-family: verdana;
+  font-weight: bold;
   text-transform: none;
   letter-spacing: 0;
   text-align: left;
@@ -339,7 +322,6 @@ h2 a {
 .bio a {
   border-bottom: 1px dotted black;
   text-decoration: none;
-  color: black;
 }
 
 .bio article {
