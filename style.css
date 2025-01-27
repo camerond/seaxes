@@ -319,6 +319,14 @@ h2 a {
   text-align: left;
 }
 
+.bio {
+  font-family: monospace;
+  text-transform: none;
+  letter-spacing: 0;
+  text-align: left;
+  color: black;
+}
+
 .bio a {
   border-bottom: 1px dotted black;
   text-decoration: none;
